@@ -1,0 +1,44 @@
+*,
+::before,
+::after
+  box-sizing: border-box
+html, body
+  margin: 0
+  padding: 0
+  background-color: #080808
+  color: #FFFFFF
+  scroll-behavior: smooth
+html
+  overflow-x: hidden
+body
+  overflow: hidden
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  margin: 0
+::-webkit-scrollbar
+  width: 10px
+
+::-webkit-scrollbar-track
+  background: #b3b3b3
+
+::-webkit-scrollbar-thumb
+  border-radius: 6px
+  background: #DAA50C
+  transition: all 0.5s ease
+
+.container
+  max-width: 1350px
+  width: 100%
+  margin: 0 auto
+  @media screen and (max-width: 1350px)
+    max-width: 1100px
+    padding: 0 40px
+    @media screen and (max-width: 1110px)
+      max-width: 991px
+    @media screen and (max-width: 640px)
+      max-width: 520px
+      padding: 0 15px
