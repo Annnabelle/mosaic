@@ -8,6 +8,8 @@
             flex-direction: row
             align-items: start
             justify-content: space-between
+            @media screen and (max-width: 850px)
+                flex-wrap: wrap
             .footerItems
                 .footerBox
                     display: flex
@@ -18,6 +20,9 @@
                     .footerInfo
                         max-width: 400px
                         .text
+                            line-height: 140%
+                            font-size: 18px
+                            font-weight: 400
                     .footerLink
                         font-size: 16px
                         font-weight: 500

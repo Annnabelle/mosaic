@@ -7,6 +7,9 @@
     display: flex
     align-items: center
     height: 100vh
+    @media screen and (max-width: 850px)
+        // background: none
+        background-position: right
     .weAreContainer
         width: 100%
         display: flex
@@ -21,6 +24,10 @@
             border: 1px solid #F7DC90
             border-radius: 6px
             backdrop-filter: blur(7px)
+            @media screen and (max-width: 1350px)
+                background: rgb(255 255 255 / 43%)
+            @media screen and (max-width: 850px)
+                background: #ffffff1c
             .img
                 max-width: 400px
                 width: 100%
@@ -30,3 +37,12 @@
                 font-weight: 500
                 color: #fff
                 line-height: 2
+                @media screen and (max-width: 1350px)
+                    color: #000
+                    font-weight: 700
+                @media screen and (max-width: 850px)
+                    font-weight: 500
+                    color: #fff
+                    font-size: 16px
+                @media screen and (max-width: 420px)
+                    font-size: 14px

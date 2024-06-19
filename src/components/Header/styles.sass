@@ -72,9 +72,6 @@
             display: flex
             flex-direction: row
             align-items: center
-            column-gap: 20px
-            @media screen and (max-width: 865px)
-                column-gap: 20px
             .headerLogo
                 display: flex
                 align-items: flex-end
@@ -84,6 +81,9 @@
                 // width: 100%
                 .logo
                     // width: 100%
+                    @media screen and (max-width: 991px)
+                        width: 100px
+                        height: 100px
             .mobileOverlay
                 @media screen and (max-width: 865px)
                     transform: translateX(-100%)
@@ -152,9 +152,9 @@
                     &:hover
                         color: #DAA50C
                     @media screen and (max-width: 1350px)
-                        font-size: 14px
-                    @media screen and (max-width: 991px)
-                        font-size: 13px
+                        font-size: 12px
+                    @media screen and (max-width: 1110px)
+                        font-size: 10px
                     @media screen and (max-width: 640px)
                         font-size: 14px
                 .navLink:not(:last-child)
@@ -171,6 +171,10 @@
                 font-size: 16px
                 font-weight: 400
                 color: #fff
+                @media screen and (max-width: 1350px)
+                    font-size: 12px
+                @media screen and (max-width: 1110px)
+                    font-size: 10px
 .bgFirst
     margin-top: 0
     // background: #2c2f3487

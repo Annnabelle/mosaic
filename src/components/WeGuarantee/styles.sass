@@ -3,6 +3,9 @@
     background-repeat: no-repeat
     background-size: cover
     background-color: #1A1A1A
+    background-position: center
+    @media screen and (max-width: 850px)
+        background: none
     .weGuranteeContainer
         padding: 50px 0
         display: flex
@@ -13,10 +16,14 @@
                 font-size: 20px
                 font-weight: 600
                 color: #fff
+                @media screen and (max-width: 420px)
+                    font-size: 18px
             .text
                 font-size: 16px
                 font-size: 400
                 color: #fff
+                @media screen and (max-width: 420px)
+                    font-size: 14px
         .weGurantBody
             display: flex
             flex-direction: column
@@ -25,8 +32,12 @@
                 display: flex
                 flex-direction: row
                 column-gap: 20px
+                @media screen and (max-width: 850px)
+                    flex-direction: column
                 .gurantContainer
                     width: 700px
+                    @media screen and (max-width: 850px)
+                        width: 100%
                     .gurantHeading
                         display: flex
                         flex-direction: row
@@ -39,8 +50,12 @@
                             font-size: 20px
                             font-weight: 600
                             color: #DAA50C
+                            @media screen and (max-width: 420px)
+                                font-size: 18px
                     .gurantBody
                         .text
                             font-size: 16px
                             font-weight: 400
                             color: #fff
+                            @media screen and (max-width: 420px)
+                                font-size: 14px

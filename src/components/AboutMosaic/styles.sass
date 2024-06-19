@@ -3,12 +3,18 @@
     background-repeat: no-repeat
     background-size: cover
     background-color: #1A1A1A
+    background-position: center
+    @media screen and (max-width: 850px)
+        background: none
     .aboutMosaicContainer
         padding: 50px 0
         display: flex
         flex-direction: row
         justify-content: space-between
         column-gap: 50px
+        @media screen and (max-width: 850px)
+            flex-direction: column-reverse
+            row-gap: 50px
         .aboutMosaicBox
             display: flex
             flex-direction: column
@@ -23,6 +29,10 @@
                     font-size: 20px
                     font-weight: 400
                     color: #fff
+                    @media screen and (max-width: 850px)
+                        font-size: 18px
+                    @media screen and (max-width: 420px)
+                        font-size: 14px
                 .list
                     .listItem
                         display: flex
@@ -33,5 +43,9 @@
                         font-size: 18px
                         font-weight: 400
                         color: #fff
+                        @media screen and (max-width: 850px)
+                            font-size: 14px
+                        @media screen and (max-width: 420px)
+                            font-size: 12px
                         svg
                             color: #CF63B5
