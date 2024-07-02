@@ -92,7 +92,7 @@ const Footer = () => {
                     <FaTelegramPlane />
                   </Link>
                   <Link
-                    href=''
+                    href='mailto:almazsagatova@gmail.com'
                     className='icon'
                   >
                     <TbMailFilled />

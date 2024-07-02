@@ -20,25 +20,25 @@ const NavBar = ({ burgerIsOpen }) => {
           <div className='links'>
             <Link
               className='navLink'
-              href='./'
+              href='./oneToOne'
             >
               Серия 1Х1 см
             </Link>
             <Link
               className='navLink'
-              href='./about'
+              href='./twoToTwo'
             >
               Серия 2Х2 см
             </Link>
             <Link
               className='navLink'
-              href='./portfolio'
+              href='./twoHalftwo'
             >
               Серия 2.5Х2.5 см
             </Link>
             <Link
               className='navLink'
-              href='./services'
+              href='./fourToFour'
             >
               Серия 4Х4 см
             </Link>

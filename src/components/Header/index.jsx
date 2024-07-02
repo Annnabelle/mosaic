@@ -53,9 +53,9 @@ const Header = ({ bgBlack }) => {
           <div className='headerPhone'>
             <Link
               className='link'
-              href=''
+              href='tel:+998992088888'
             >
-              +998(99) 999 99 99
+              +9989 99 208 88 88
             </Link>
           </div>
           <div

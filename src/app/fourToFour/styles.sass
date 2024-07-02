@@ -1,0 +1,90 @@
+.pageFourToFout
+    padding-top: 150px
+    padding-bottom: 50px
+    @media screen and (max-width: 550px)
+        padding-top: 100px
+    .pageOneToOneContainer
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: repeat(3, 1fr)
+        justify-items: center
+        grid-column-gap: 20px
+        grid-row-gap: 20px
+        @media screen and (max-width: 991px)
+            grid-template-columns: repeat(2, 1fr)
+            grid-template-rows: repeat(5, 1fr)
+        @media screen and (max-width: 550px)
+            grid-template-columns: repeat(1, 1fr)
+            grid-template-rows: repeat(9, 1fr)
+        .firstBlock
+            grid-area: 1 / 1 / 2 / 2
+            width: 100%
+            height: 100%
+            @media screen and (max-width: 991px)
+                grid-area: 1 / 1 / 2 / 2
+            @media screen and (max-width: 550px)
+                grid-area: 1 / 1 / 2 / 2
+        .secondBlock
+            grid-area: 1 / 2 / 2 / 3
+            width: 100%
+            height: 100%
+            @media screen and (max-width: 991px)
+                grid-area: 1 / 2 / 2 / 3
+            @media screen and (max-width: 550px)
+                grid-area: 2 / 1 / 3 / 2
+        .thirdBlock
+            grid-area: 1 / 3 / 2 / 4
+            width: 100%
+            height: 100%
+            @media screen and (max-width: 991px)
+                grid-area: 2 / 1 / 3 / 2
+            @media screen and (max-width: 550px)
+                grid-area: 3 / 1 / 4 / 2
+        .forthBlock
+            grid-area: 2 / 1 / 3 / 2
+            width: 100%
+            height: 100%
+            @media screen and (max-width: 991px)
+                grid-area: 2 / 2 / 3 / 3
+            @media screen and (max-width: 550px)
+                grid-area: 4 / 1 / 5 / 2
+        .fifthBlock
+            grid-area: 2 / 2 / 3 / 3
+            width: 100%
+            height: 100%
+            @media screen and (max-width: 991px)
+                grid-area: 3 / 1 / 4 / 2
+            @media screen and (max-width: 550px)
+                grid-area: 5 / 1 / 6 / 2
+        .sixBlock
+            grid-area: 2 / 3 / 3 / 4
+            width: 100%
+            height: 100%
+            @media screen and (max-width: 991px)
+                grid-area: 3 / 2 / 4 / 3
+            @media screen and (max-width: 550px)
+                grid-area: 6 / 1 / 7 / 2
+        .seventhBlock
+            grid-area: 3 / 1 / 4 / 2
+            width: 100%
+            height: 100%
+            @media screen and (max-width: 991px)
+                grid-area: 5 / 1 / 6 / 2
+            @media screen and (max-width: 550px)
+                grid-area: 7 / 1 / 8 / 2
+        .eighthBlock
+            grid-area: 3 / 2 / 4 / 3
+            width: 100%
+            height: 100%
+            @media screen and (max-width: 991px)
+                grid-area: 4 / 2 / 5 / 3
+            @media screen and (max-width: 550px)
+                grid-area: 8 / 1 / 9 / 2
+        .ninethBlock
+            grid-area: 3 / 3 / 4 / 4
+            width: 100%
+            height: 100%
+            @media screen and (max-width: 991px)
+                grid-area: 4 / 1 / 5 / 2
+            @media screen and (max-width: 550px)
+                grid-area: 9 / 1 / 10 / 2
