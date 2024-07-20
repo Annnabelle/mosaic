@@ -1,9 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import "./styles.sass";
 import FullscreenImage from "@/components/FullscreenImage";
+import HeadingComponent from "@/components/headingComponent";
+import "./styles.sass";
 
-const PageFourToFour = () => {
+const FourToFour = () => {
   const [currentImage, setCurrentImage] = useState(null);
 
   const handleOpen = (src) => {
@@ -14,7 +15,7 @@ const PageFourToFour = () => {
     setCurrentImage(null);
   };
   return (
-    <div className='pageFourToFout'>
+    <div className='pageFourToFour'>
       <div className='container'>
         <div className='pageMainTitle'>
           <h1 className='title'>Серия 4X4</h1>
@@ -23,7 +24,7 @@ const PageFourToFour = () => {
           <div className='firstBlock'>
             <FullscreenImage
               src='/4x4.png'
-              alt='Sample Image 1'
+              alt='4x4'
               onOpen={handleOpen}
               onClose={handleClose}
               isOpen={currentImage === "/4x4.png"}
@@ -32,7 +33,7 @@ const PageFourToFour = () => {
           <div className='secondBlock'>
             <FullscreenImage
               src='/4x4mix1.png'
-              alt='Sample Image 2'
+              alt='4x4mix1'
               onOpen={handleOpen}
               onClose={handleClose}
               isOpen={currentImage === "/4x4mix1.png"}
@@ -41,7 +42,7 @@ const PageFourToFour = () => {
           <div className='thirdBlock'>
             <FullscreenImage
               src='/4x4mixG1.png'
-              alt='Sample Image 1'
+              alt='4x4mixG1'
               onOpen={handleOpen}
               onClose={handleClose}
               isOpen={currentImage === "/4x4mixG1.png"}
@@ -50,7 +51,7 @@ const PageFourToFour = () => {
           <div className='forthBlock'>
             <FullscreenImage
               src='/4x4mixn3.png'
-              alt='Sample Image 2'
+              alt='4x4mixn3'
               onOpen={handleOpen}
               onClose={handleClose}
               isOpen={currentImage === "/4x4mixn3.png"}
@@ -59,7 +60,7 @@ const PageFourToFour = () => {
           <div className='fifthBlock'>
             <FullscreenImage
               src='/4x4n5.png'
-              alt='Sample Image 1'
+              alt='4x4n5'
               onOpen={handleOpen}
               onClose={handleClose}
               isOpen={currentImage === "/4x4n5.png"}
@@ -68,7 +69,7 @@ const PageFourToFour = () => {
           <div className='sixBlock'>
             <FullscreenImage
               src='/4x4nl.png'
-              alt='Sample Image 2'
+              alt='4x4nl'
               onOpen={handleOpen}
               onClose={handleClose}
               isOpen={currentImage === "/4x4nl.png"}
@@ -77,7 +78,7 @@ const PageFourToFour = () => {
           <div className='seventhBlock'>
             <FullscreenImage
               src='/4x4z2.png'
-              alt='Sample Image 1'
+              alt='4x4z2'
               onOpen={handleOpen}
               onClose={handleClose}
               isOpen={currentImage === "/4x4z2.png"}
@@ -86,16 +87,25 @@ const PageFourToFour = () => {
           <div className='eighthBlock'>
             <FullscreenImage
               src='/4x4z8.png'
-              alt='Sample Image 2'
+              alt='4x4z8'
               onOpen={handleOpen}
               onClose={handleClose}
               isOpen={currentImage === "/4x4z8.png"}
             />
           </div>
+          {/* <div className='ninethBlock'>
+            <FullscreenImage
+              src='/drop9.png'
+              alt='drop0'
+              onOpen={handleOpen}
+              onClose={handleClose}
+              isOpen={currentImage === "/drop9.png"}
+            />
+          </div> */}
         </div>
       </div>
     </div>
   );
 };
 
-export default PageFourToFour;
+export default FourToFour;

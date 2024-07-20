@@ -56,15 +56,6 @@ const PageTwoHalfTwo = () => {
               isOpen={currentImage === "/g10.png"}
             />
           </div>
-          <div className='fifthBlock'>
-            <FullscreenImage
-              src='/gold.png'
-              alt='Sample Image 2'
-              onOpen={handleOpen}
-              onClose={handleClose}
-              isOpen={currentImage === "/gold.png"}
-            />
-          </div>
           <div className='sixBlock'>
             <FullscreenImage
               src='/blue.png'
