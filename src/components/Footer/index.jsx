@@ -1,11 +1,15 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaTelegramPlane } from "react-icons/fa";
 import { TbMailFilled } from "react-icons/tb";
 import "./styles.sass";
+import { usePathname, useRouter } from "next/navigation";
 
 const Footer = () => {
+  const router = useRouter();
+  const pathname = usePathname();
   return (
     <footer className='footer'>
       <div className='container'>
@@ -38,44 +42,51 @@ const Footer = () => {
             <div className='footerItems'>
               <div className='footerBox'>
                 <Link
-                  className='footerLink'
+                  // className='footerLink'
                   href='./oneToOne'
+                  className={`footerLink ${pathname === "/oneToOne" ? "active" : ""}`}
                 >
                   Серия 1Х1 см
                 </Link>
                 <Link
-                  className='footerLink'
+                  // className='footerLink'
                   href='./twoToTwo'
+                  className={`footerLink ${pathname === "/twoToTwo" ? "active" : ""}`}
                 >
                   Серия 2Х2 см
                 </Link>
                 <Link
-                  className='footerLink'
+                  // className='footerLink'
                   href='./twoHalftwo'
+                  className={`footerLink ${pathname === "/twoHalftwo" ? "active" : ""}`}
                 >
                   Серия 2.5Х2.5 см
                 </Link>
                 <Link
-                  className='footerLink'
+                  // className='footerLink'
                   href='./fourToFour'
+                  className={`footerLink ${pathname === "/fourToFour" ? "active" : ""}`}
                 >
                   Серия 4Х4 см
                 </Link>
                 <Link
-                  className='footerLink'
+                  // className='footerLink'
                   href='./textured'
+                  className={`footerLink ${pathname === "/textured" ? "active" : ""}`}
                 >
                   Текстурная
                 </Link>
                 <Link
-                  className='footerLink'
+                  // className='footerLink'
                   href='./honeycomb'
+                  className={`footerLink ${pathname === "/honeycomb" ? "active" : ""}`}
                 >
                   Соты
                 </Link>
                 <Link
-                  className='footerLink'
+                  // className='footerLink'
                   href='./drop'
+                  className={`footerLink ${pathname === "/drop" ? "active" : ""}`}
                 >
                   DROP
                 </Link>

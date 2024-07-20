@@ -63,7 +63,7 @@ const PageOneToOne = () => {
               isOpen={currentImage === "/1x1z1.png"}
             />
           </div>
-          <div className='fifthBlock'>
+          {/* <div className='fifthBlock'>
             <FullscreenImage
               src='/1x1z5.png'
               alt='Sample Image 1'
@@ -71,17 +71,8 @@ const PageOneToOne = () => {
               onClose={handleClose}
               isOpen={currentImage === "/1x1z5.png"}
             />
-          </div>
-          <div className='sixBlock'>
-            <FullscreenImage
-              src='/1x1z7.png'
-              alt='Sample Image 2'
-              onOpen={handleOpen}
-              onClose={handleClose}
-              isOpen={currentImage === "/1x1z7.png"}
-            />
-          </div>
-          <div className='seventhBlock'>
+          </div> */}
+          <div className='fifthBlock '>
             <FullscreenImage
               src='/1x1z8.png'
               alt='Sample Image 1'
@@ -90,22 +81,13 @@ const PageOneToOne = () => {
               isOpen={currentImage === "/1x1z8.png"}
             />
           </div>
-          <div className='eighthBlock'>
+          <div className='sixBlock'>
             <FullscreenImage
               src='/1x1z9.png'
               alt='Sample Image 2'
               onOpen={handleOpen}
               onClose={handleClose}
               isOpen={currentImage === "/1x1z9.png"}
-            />
-          </div>
-          <div className='ninethBlock'>
-            <FullscreenImage
-              src='/1x1mix2.png'
-              alt='Sample Image 1'
-              onOpen={handleOpen}
-              onClose={handleClose}
-              isOpen={currentImage === "/1x1mix2.png"}
             />
           </div>
         </div>

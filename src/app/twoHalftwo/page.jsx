@@ -110,7 +110,7 @@ const PageTwoHalfTwo = () => {
               isOpen={currentImage === "/mixz2.png"}
             />
           </div>
-          <div className='twelveth'>
+          {/* <div className='twelveth'>
             <FullscreenImage
               src='/n2.png'
               alt='Sample Image 2'
@@ -118,7 +118,7 @@ const PageTwoHalfTwo = () => {
               onClose={handleClose}
               isOpen={currentImage === "/n2.png"}
             />
-          </div>
+          </div> */}
           <div className='thirteen'>
             <FullscreenImage
               src='/n5.png'
@@ -245,7 +245,7 @@ const PageTwoHalfTwo = () => {
               isOpen={currentImage === "/zl1.png"}
             />
           </div>
-          <div className='twentySeven'>
+          {/* <div className='twentySeven'>
             <FullscreenImage
               src='/zw.png'
               alt='Sample Image 2'
@@ -253,7 +253,7 @@ const PageTwoHalfTwo = () => {
               onClose={handleClose}
               isOpen={currentImage === "/zw.png"}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
