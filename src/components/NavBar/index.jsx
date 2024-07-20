@@ -44,19 +44,19 @@ const NavBar = ({ burgerIsOpen }) => {
             </Link>
             <Link
               className='navLink'
-              href='./news'
+              href='./textured'
             >
               Текстурная
             </Link>
             <Link
               className='navLink'
-              href='./news'
+              href='./honeycomb'
             >
               Соты
             </Link>
             <Link
               className='navLink'
-              href='./news'
+              href='./drop'
             >
               DROP
             </Link>

@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import { CgShapeRhombus } from "react-icons/cg";
@@ -20,7 +21,7 @@ const AboutMosaic = () => {
           <div className='aboutMosaicBox'>
             <div className='aboutMosaicInfo'>
               <p className='text'>
-                Плитка имеет размер 31Х31 см, проклеенная снизу специальной сеткой для удобства кладки. Швы между чипами
+                Плитка имеет размер 30Х30 см, проклеенная снизу специальной сеткой для удобства кладки. Швы между чипами
                 имеют международный стандарт.
               </p>
               <p className='text'>Сами чипы мозайки имеют размер:</p>

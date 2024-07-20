@@ -39,43 +39,43 @@ const Footer = () => {
               <div className='footerBox'>
                 <Link
                   className='footerLink'
-                  href=''
+                  href='./oneToOne'
                 >
                   Серия 1Х1 см
                 </Link>
                 <Link
                   className='footerLink'
-                  href=''
+                  href='./twoToTwo'
                 >
                   Серия 2Х2 см
                 </Link>
                 <Link
                   className='footerLink'
-                  href=''
+                  href='./twoHalftwo'
                 >
                   Серия 2.5Х2.5 см
                 </Link>
                 <Link
                   className='footerLink'
-                  href=''
+                  href='./fourToFour'
                 >
                   Серия 4Х4 см
                 </Link>
                 <Link
                   className='footerLink'
-                  href=''
+                  href='./textured'
                 >
                   Текстурная
                 </Link>
                 <Link
                   className='footerLink'
-                  href=''
+                  href='./honeycomb'
                 >
                   Соты
                 </Link>
                 <Link
                   className='footerLink'
-                  href=''
+                  href='./drop'
                 >
                   DROP
                 </Link>
@@ -86,7 +86,7 @@ const Footer = () => {
                 <h5 className='title'>Свяжитесь с нами:</h5>
                 <div className='iconsBox'>
                   <Link
-                    href=''
+                    href='tel:+998992088888'
                     className='icon'
                   >
                     <FaTelegramPlane />
