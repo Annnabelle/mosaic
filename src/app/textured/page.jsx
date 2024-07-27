@@ -27,6 +27,13 @@ const Textured = () => {
           </div>
         </div>
         <div className='pageOneToOneContainer'>
+          <div className='blob first'></div>
+
+          <div className='blob second'></div>
+
+          <div className='blob third'></div>
+
+          <div className='blob forth'></div>
           <div className='firstBlock'>
             <FullscreenImage
               src='/textured1.png'
@@ -53,6 +60,10 @@ const Textured = () => {
               onClose={handleClose}
               isOpen={currentImage === "/textured3.png"}
             />
+
+            <div className='blob third'></div>
+
+            <div className='blob forth'></div>
           </div>
           <div className='forthBlock'>
             <FullscreenImage
@@ -89,6 +100,10 @@ const Textured = () => {
               onClose={handleClose}
               isOpen={currentImage === "/textured7.png"}
             />
+
+            <div className='blob third'></div>
+
+            <div className='blob forth'></div>
           </div>
           <div className='eighthBlock'>
             <FullscreenImage

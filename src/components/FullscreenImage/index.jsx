@@ -21,7 +21,7 @@ const FullscreenImage = ({ src, alt, onOpen, onClose, isOpen }) => {
   };
 
   return (
-    <div>
+    <div style={{ position: "relative", zIndex: "2" }}>
       <img
         src={src}
         alt={alt}

@@ -27,6 +27,13 @@ const PageOneToOne = () => {
           </div>
         </div>
         <div className='pageOneToOneContainer'>
+          <div className='blob first'></div>
+
+          <div className='blob second'></div>
+
+          <div className='blob third'></div>
+
+          <div className='blob forth'></div>
           <div className='firstBlock'>
             <FullscreenImage
               src='/1x1mix.png'
@@ -62,6 +69,9 @@ const PageOneToOne = () => {
               onClose={handleClose}
               isOpen={currentImage === "/1x1z1.png"}
             />
+            <div className='blob first'></div>
+
+            <div className='blob second'></div>
           </div>
           {/* <div className='fifthBlock'>
             <FullscreenImage
@@ -89,6 +99,9 @@ const PageOneToOne = () => {
               onClose={handleClose}
               isOpen={currentImage === "/1x1z9.png"}
             />
+            <div className='blob third'></div>
+
+            <div className='blob forth'></div>
           </div>
         </div>
       </div>

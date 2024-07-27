@@ -27,6 +27,13 @@ const Drop = () => {
           </div>
         </div>
         <div className='pageOneToOneContainer'>
+          <div className='blob first'></div>
+
+          <div className='blob second'></div>
+
+          <div className='blob third'></div>
+
+          <div className='blob forth'></div>
           <div className='firstBlock'>
             <FullscreenImage
               src='/drop1.png'
@@ -53,6 +60,9 @@ const Drop = () => {
               onClose={handleClose}
               isOpen={currentImage === "/drop3.png"}
             />
+            <div className='blob first'></div>
+
+            <div className='blob second'></div>
           </div>
           <div className='forthBlock'>
             <FullscreenImage
@@ -80,6 +90,10 @@ const Drop = () => {
               onClose={handleClose}
               isOpen={currentImage === "/drop6.png"}
             />
+
+            <div className='blob third'></div>
+
+            <div className='blob forth'></div>
           </div>
           <div className='seventhBlock'>
             <FullscreenImage

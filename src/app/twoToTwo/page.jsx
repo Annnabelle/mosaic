@@ -17,15 +17,20 @@ const PageTwoToTwo = () => {
     <div className='pageTwoToTwo'>
       <div className='container'>
         <div className='headingComponent'>
-          <div className='container'>
-            <div className='headingContainer'>
-              <div className='headingBox'>
-                <p className='text'>Серия 2X2</p>
-              </div>
+          <div className='headingContainer'>
+            <div className='headingBox'>
+              <p className='text'>Серия 2X2</p>
             </div>
           </div>
         </div>
         <div className='pageOneToOneContainer'>
+          <div className='blob first'></div>
+
+          <div className='blob second'></div>
+
+          <div className='blob third'></div>
+
+          <div className='blob forth'></div>
           <div className='firstBlock'>
             <FullscreenImage
               src='/2x2mix.png'
@@ -34,6 +39,9 @@ const PageTwoToTwo = () => {
               onClose={handleClose}
               isOpen={currentImage === "/2x2mix.png"}
             />
+            <div className='blob third'></div>
+
+            <div className='blob forth'></div>
           </div>
           <div className='secondBlock'>
             <FullscreenImage
@@ -43,6 +51,9 @@ const PageTwoToTwo = () => {
               onClose={handleClose}
               isOpen={currentImage === "/2x2mix2.png"}
             />
+            <div className='blob first'></div>
+
+            <div className='blob second'></div>
           </div>
           <div className='thirdBlock'>
             <FullscreenImage
@@ -52,6 +63,9 @@ const PageTwoToTwo = () => {
               onClose={handleClose}
               isOpen={currentImage === "/2x2z2.png"}
             />
+            <div className='blob third'></div>
+
+            <div className='blob forth'></div>
           </div>
           <div className='forthBlock'>
             <FullscreenImage
@@ -61,6 +75,9 @@ const PageTwoToTwo = () => {
               onClose={handleClose}
               isOpen={currentImage === "/2x2z8.png"}
             />
+            <div className='blob first'></div>
+
+            <div className='blob second'></div>
           </div>
         </div>
       </div>

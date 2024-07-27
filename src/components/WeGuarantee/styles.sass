@@ -4,8 +4,20 @@
     background-size: cover
     background-color: #1A1A1A
     background-position: center
+    position: relative
     @media screen and (max-width: 850px)
         background: none
+    .svgText
+        visibility: hidden
+        position: absolute
+        z-index: 0
+        bottom: 0
+    .textMosaic
+        font-family: sans-serif
+        font-size: 24px
+        font-weight: 600
+        fill: #DAA50C
+
     .weGuranteeContainer
         padding: 50px 0
         display: flex

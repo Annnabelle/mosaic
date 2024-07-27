@@ -21,6 +21,13 @@ const FourToFour = () => {
           <h1 className='title'>Серия 4X4</h1>
         </div>
         <div className='pageOneToOneContainer'>
+          <div className='blob first'></div>
+
+          <div className='blob second'></div>
+
+          <div className='blob third'></div>
+
+          <div className='blob forth'></div>
           <div className='firstBlock'>
             <FullscreenImage
               src='/4x4.png'
@@ -47,6 +54,9 @@ const FourToFour = () => {
               onClose={handleClose}
               isOpen={currentImage === "/4x4mixG1.png"}
             />
+            <div className='blob first'></div>
+
+            <div className='blob second'></div>
           </div>
           <div className='forthBlock'>
             <FullscreenImage
@@ -92,6 +102,10 @@ const FourToFour = () => {
               onClose={handleClose}
               isOpen={currentImage === "/4x4z8.png"}
             />
+
+            <div className='blob third'></div>
+
+            <div className='blob forth'></div>
           </div>
           {/* <div className='ninethBlock'>
             <FullscreenImage

@@ -1,11 +1,64 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import { BsFillPatchCheckFill } from "react-icons/bs";
-
+import gsap from "gsap";
 import "./styles.sass";
 
 const WeGuarantee = () => {
+  useEffect(() => {
+    gsap.set("svg", { autoAlpha: 1 });
+
+    gsap
+      .timeline({ repeat: -1 })
+      .fromTo(
+        ".textMosaic",
+        { attr: { startOffset: "120%" }, autoAlpha: 0 },
+        {
+          attr: { startOffset: "0%" },
+          autoAlpha: 1,
+          duration: 10,
+          ease: "none",
+        },
+      )
+      .to(
+        ".textMosaic",
+        {
+          attr: { startOffset: "-120%" },
+          autoAlpha: 0,
+          duration: 10,
+          ease: "none",
+        },
+        8,
+      );
+  }, []);
   return (
     <div className='weGuarantee'>
+      <svg
+        className='svgText'
+        viewBox='0 100 1000 400' // Increased viewBox dimensions for larger area
+        width='100%'
+        height='100%'
+        preserveAspectRatio='xMidYMid meet' // Ensures the SVG is centered
+      >
+        <defs>
+          <path
+            id='infinity-path'
+            fill='none'
+            // d='M 50 300 Q 100 50 250 200 Q 350 350 450 200 Q 600 50 700 350'
+            d='M 800 1000
+               C 600 100, 200 500, 400 300
+               C 1000 100, 1000 500, 1000 1000'
+          ></path>
+        </defs>
+        <text>
+          <textPath
+            className='textMosaic'
+            href='#infinity-path'
+          >
+            PREMIUM PREMIUM PREMIUM PREMIUM PREMIUM
+          </textPath>
+        </text>
+      </svg>
       <div className='container'>
         <div className='weGuranteeContainer'>
           <div className='weGurantHeading'>

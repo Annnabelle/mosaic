@@ -20,6 +20,13 @@ const PageTwoHalfTwo = () => {
           <h1 className='title'>Серия 2.5X2.5</h1>
         </div>
         <div className='pageOneToOneContainer'>
+          <div className='blob first'></div>
+
+          <div className='blob second'></div>
+
+          <div className='blob third'></div>
+
+          <div className='blob forth'></div>
           <div className='firstBlock'>
             <FullscreenImage
               src='/double.png'
@@ -28,6 +35,9 @@ const PageTwoHalfTwo = () => {
               onClose={handleClose}
               isOpen={currentImage === "/double.png"}
             />
+            <div className='blob first'></div>
+
+            <div className='blob second'></div>
           </div>
           <div className='secondBlock'>
             <FullscreenImage
@@ -37,6 +47,9 @@ const PageTwoHalfTwo = () => {
               onClose={handleClose}
               isOpen={currentImage === "/g1.png"}
             />
+            <div className='blob third'></div>
+
+            <div className='blob forth'></div>
           </div>
           <div className='thirdBlock'>
             <FullscreenImage
@@ -55,6 +68,9 @@ const PageTwoHalfTwo = () => {
               onClose={handleClose}
               isOpen={currentImage === "/g10.png"}
             />
+            <div className='blob third'></div>
+
+            <div className='blob forth'></div>
           </div>
           <div className='sixBlock'>
             <FullscreenImage

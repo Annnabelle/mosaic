@@ -11,7 +11,7 @@ const AboutMosaic = () => {
         <div className='aboutMosaicContainer'>
           <div className='aboutMosaicBox'>
             <Image
-              src='/aboutMosaic2.svg'
+              src='/aboutMosaic2 (2).svg'
               alt='aboutMosaic'
               className='aboutMosaicImage'
               width={100}
